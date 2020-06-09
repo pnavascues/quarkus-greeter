@@ -53,10 +53,10 @@
   <build>
     <finalName>${project.artifactId}</finalName>
     <plugins>
-<!--      <plugin>
+      <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${compiler-plugin.version}</version>
-      </plugin>> -->
+      </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${surefire-plugin.version}</version>
@@ -79,7 +79,7 @@
           </execution>
         </executions>
       </plugin>
-<!--      <plugin>
+      <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
         <version>${build-helper-maven-plugin.version}</version>
@@ -101,7 +101,7 @@
             </configuration>
           </execution>
         </executions>
-      </plugin>-->
+      </plugin>
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-antrun-plugin</artifactId>
